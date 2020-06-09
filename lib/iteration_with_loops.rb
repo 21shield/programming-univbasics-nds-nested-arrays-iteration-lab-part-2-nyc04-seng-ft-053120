@@ -9,13 +9,13 @@ outer_index = 0
     smallest_num = src[0]
       while inner_index < src[outer_index].length do
           if src[outer_index][inner_index] < smallest_num
-            smallest_num = src[outer_index][inner_index] 
-            
+            smallest_num = src[outer_index][inner_index]
+
           end
           outer_index << smallest_num
           inner_index +=1
         end
-        
+
       end
     end
     outer_index += 1
